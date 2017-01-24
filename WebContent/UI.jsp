@@ -16,12 +16,15 @@
 <body>
 
 <FORM action="" method="get">
-<LABEL for="principal">PRINCIPAL (total loan amount after studies)</LABEL>
+<LABEL for="principal">Principal (total loan amount after studies)</LABEL>
 <input type="text"></input><br/>
-<LABEL for="principal">Annual Interest Rate</LABEL>
+<LABEL for="interest">Annual Interest Rate</LABEL>
 <input type="text"></input><br/>
-<LABEL for="principal">PRINCIPAL (total loan amount after studies)</LABEL>
+<LABEL for="period">Payment Period (total number of months)</LABEL>
 <input type="text"></input><br/>
+<LABEL for="grace">Grace Period (take advantage of 6 month grace period and include grace period interest with your loan balance)</LABEL>
+<input type="checkbox"></input><br/>
+<input type="submit"></input>
 </FORM>
 
 </body>
